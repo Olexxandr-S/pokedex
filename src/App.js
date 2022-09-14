@@ -1,9 +1,9 @@
 import React from "react";
-import BestPokemon from "./BestPokemon";
 import Logo from "./Logo";
-import PokemonMoves from "./PokemonMoves";
+import BestPokemon from "./BestPokemon";
+import CaughtPokemon from "./CaughtPokemon";
 
-const App = () => {
+function App() {
   const abilities = [
     "razor-wind",
     "swords-dance",
@@ -11,14 +11,16 @@ const App = () => {
     "double-edge",
     "body-slam",
   ];
-
+  function logWhenClicked() {
+    console.log("Clicked");
+  }
   return (
-    <div>
-      <Logo appName="Pokedex" handleClick={""} />
+    <div id="div1">
+      <Logo appName="Pokedex" handleClick={logWhenClicked} />
       <BestPokemon abilities={abilities} />
-      <PokemonMoves />
+      <CaughtPokemon date={new Date().toLocaleDateString()} />
     </div>
   );
-};
+}
 
 export default App;

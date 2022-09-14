@@ -6,7 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -15,20 +14,24 @@ code {
     monospace;
 }
 
-.header {
-  margin: 2rem;
-  color: rgb(85, 85, 85);
-  font-size: 5rem;
-}
-
-.pokemonData {
-  display: flex;
-  flex-direction: row;
-}
-
-.pokemonMove {
+.root {
   display: flex;
   flex-direction: column;
-  list-style: none;
-  gap: 0.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo_title {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 20rem;
 }
