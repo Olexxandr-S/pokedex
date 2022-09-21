@@ -1291,40 +1291,44 @@ const Footer = () => {
           <div>
             <div>
               <b>Here</b>
-              <a href="#">content</a>
-              <a href="#">about</a>
-              <a href="#">my</a>
-              <a href="#">favorite</a>
-              <a href="#">pokemon</a>
+              <a href="https://github.com/OlexxandrS/pokedex">content</a>
+              <a href="https://github.com/OlexxandrS/pokedex">about</a>
+              <a href="https://github.com/OlexxandrS/pokedex">my</a>
+              <a href="https://github.com/OlexxandrS/pokedex">favorite</a>
+              <a href="https://github.com/OlexxandrS/pokedex">pokemon</a>
             </div>
             <div>
               <b>Lorem</b>
-              <a href="#">ipsum</a>
-              <a href="#">dolor</a>
-              <a href="#">sit</a>
-              <a href="#">amet</a>
-              <a href="#">here</a>
+              <a href="https://github.com/OlexxandrS/pokedex">ipsum</a>
+              <a href="https://github.com/OlexxandrS/pokedex">dolor</a>
+              <a href="https://github.com/OlexxandrS/pokedex">sit</a>
+              <a href="https://github.com/OlexxandrS/pokedex">amet</a>
+              <a href="https://github.com/OlexxandrS/pokedex">here</a>
             </div>
             <div>
               <b>Lorem</b>
-              <a href="#">ipsum</a>
-              <a href="#">dolor</a>
-              <a href="#">sit</a>
-              <a href="#">amet</a>
-              <a href="#">here</a>
-              <a href="#">consectetur</a>
+              <a href="https://github.com/OlexxandrS/pokedex">ipsum</a>
+              <a href="https://github.com/OlexxandrS/pokedex">dolor</a>
+              <a href="https://github.com/OlexxandrS/pokedex">sit</a>
+              <a href="https://github.com/OlexxandrS/pokedex">amet</a>
+              <a href="https://github.com/OlexxandrS/pokedex">here</a>
+              <a href="https://github.com/OlexxandrS/pokedex">consectetur</a>
             </div>
             <div>
               <b>Here</b>
-              <a href="#">content</a>
-              <a href="#">about</a>
-              <a href="#">my</a>
-              <a href="#">favorite</a>
-              <a href="#">pokemon</a>
+              <a href="https://github.com/OlexxandrS/pokedex">content</a>
+              <a href="https://github.com/OlexxandrS/pokedex">about</a>
+              <a href="https://github.com/OlexxandrS/pokedex">my</a>
+              <a href="https://github.com/OlexxandrS/pokedex">favorite</a>
+              <a href="https://github.com/OlexxandrS/pokedex">pokemon</a>
             </div>
           </div>
           <div>
-            <a className="image" href="#" target="_blank" />
+            {/* <a
+              className="image"
+              href="https://github.com/OlexxandrS/pokedex"
+              target="_blank"
+            /> */}
             <p>© 2022</p>
           </div>
         </div>
