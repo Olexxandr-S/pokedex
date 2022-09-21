@@ -18,7 +18,7 @@ const CaughtPokemon = (props) => {
 
   console.log(props);
   return (
-    <>
+    <hero className="hero">
       <p>
         Caught {caught.length} Pokemon on {props.date}
       </p>
@@ -28,7 +28,7 @@ const CaughtPokemon = (props) => {
           return <li key={index}>{el}</li>;
         })}
       </ul>
-    </>
+    </hero>
   );
 };
 export default CaughtPokemon;

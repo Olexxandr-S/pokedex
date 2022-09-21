@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "./Logo";
 import BestPokemon from "./BestPokemon";
 import CaughtPokemon from "./CaughtPokemon";
+import Footer from "./Footer";
 
 function App() {
   const abilities = [
@@ -15,11 +16,12 @@ function App() {
     console.log("Clicked");
   }
   return (
-    <div id="div1">
+    <>
       <Logo appName="Pokedex" handleClick={logWhenClicked} />
       <BestPokemon abilities={abilities} />
       <CaughtPokemon date={new Date().toLocaleDateString()} />
-    </div>
+      <Footer />
+    </>
   );
 }
 

@@ -3,7 +3,7 @@ import React from "react";
 const BestPokemon = (props) => {
   console.log(props);
   return (
-    <div>
+    <div className="main">
       <p>My favorite Pokemon is Bulbasaur</p>
       <ul>
         {props.abilities.map((ability, index) => (
