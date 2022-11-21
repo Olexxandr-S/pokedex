@@ -1,5 +1,4 @@
 import React from "react";
-import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -1324,11 +1323,6 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            {/* <a
-              className="image"
-              href="https://github.com/OlexxandrS/pokedex"
-              target="_blank"
-            /> */}
             <p>© 2022</p>
           </div>
         </div>
